@@ -46,6 +46,10 @@ public class Jogador {
         return qtdItens;
     };
 
+    public void setQtdItens(int qtdItens) {
+        this.qtdItens = qtdItens;
+    }
+
     public int getMaxItens() {
         return maxItens;
     };
@@ -53,6 +57,5 @@ public class Jogador {
     public void setMaxItens(int maxItens) {
         this.maxItens = maxItens;
     };
-
 
 }
